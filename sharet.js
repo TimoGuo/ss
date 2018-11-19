@@ -16,8 +16,12 @@
 })();
 
 function cli() {
-    $(document).on('click', '.history li', function () {
+//     $(document).on('click', '.history li', function () {
+//         $('.history li').removeClass('active');
+//         $(this).addClass('active');
+//     });
+      $('.history li').click(function(){
         $('.history li').removeClass('active');
         $(this).addClass('active');
-    });
+    })
 }
