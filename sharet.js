@@ -13,13 +13,13 @@
        
         
        $('.history').html('<li>liii1</li><li>liii2</li>');
-//     cli();
+    cli();
        
       // 选择地址
-    $(document).on('click', '.history li', function () {
-        $('.history li').removeClass('active');
-        $(this).addClass('active');
-    });
+//     $(document).on('click', '.history li', function () {
+//         $('.history li').removeClass('active');
+//         $(this).addClass('active');
+//     });
     
     $("#buyA").click(function () {
         alert('buyAA');
@@ -32,9 +32,9 @@
               });
 })(jQuery);
 
-// function cli() {
-//       $('.history li').click(function(){
-//         $('.history li').removeClass('active');
-//         $(this).addClass('active');
-//     })
-// }
+function cli() {
+      $('.history li').click(function(){
+        $('.history li').removeClass('active');
+        $(this).addClass('active');
+    })
+}
