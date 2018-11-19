@@ -5,8 +5,10 @@ $(document).on('click', '.history li', function () {
     $(this).addClass('active');
 });
 
-
+$("#buyA").click(function () {
+    alert('buyAA');
+});
 
 $('#buyB').click(function () {
-    alert('buy11');
+    alert('buyBB');
 });
