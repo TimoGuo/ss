@@ -3,13 +3,13 @@
 // (function(){
         
         //倒计时
-//         var countDown = $('#times').text();
-//         $('.countdown').downCount({
-//             date: countDown,
-//             offset: +10
-//         }, function () {
-//             //alert('倒计时结束!');
-//         });
+        var countDown = $('#times').text();
+        $('.countdown').downCount({
+            date: countDown,
+            offset: +10
+        }, function () {
+            //alert('倒计时结束!');
+        });
        
         
        $('.history').html('<li>li2</li><li>li3</li>');
