@@ -12,13 +12,13 @@
         });
         
       // 选择地址
-    $(document).on('click', '.history li', function () {
-        $('.history li').removeClass('active');
-        $(this).addClass('active');
-    });
+//     $(document).on('click', '.history li', function () {
+//         $('.history li').removeClass('active');
+//         $(this).addClass('active');
+//     });
     
     $('.history').html('<li>li1</li><li>li2</li><li>li43</li>');
-//     cli();
+    cli();
 
     $("#buyA").click(function () {
         alert('buyAA');
@@ -31,9 +31,9 @@
               });
 })(jQuery);
 
-// function cli() {
-//       $('.history li').click(function(){
-//         $('.history li').removeClass('active');
-//         $(this).addClass('active');
-//     })
-// }
+function cli() {
+      $('.history li').click(function(){
+        $('.history li').removeClass('active');
+        $(this).addClass('active');
+    })
+}
