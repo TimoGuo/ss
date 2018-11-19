@@ -7,7 +7,7 @@
         $(this).addClass('active');
     });
     
-    $('.history').html('<li>li1</li><li>li2</li><li>li3</li>');
+    $('.history').html('<li>li1</li><li>li2</li><li>li43</li>');
 //     cli();
 
     $("#buyA").click(function () {
