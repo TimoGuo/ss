@@ -4,7 +4,7 @@
    
     
     $('.history').html('<li>li1</li><li>li2</li><li>li4</li>');
-    cli();
+//     cli();
 
     $("#buyA").click(function () {
         alert('buyAA');
@@ -15,13 +15,13 @@
     });  
 })();
 
-function cli() {
-//     $(document).on('click', '.history li', function () {
-//         $('.history li').removeClass('active');
-//         $(this).addClass('active');
-//     });
-      $('.history li').click(function(){
+// function cli() {
+    $(document).on('click', '.history li', function () {
         $('.history li').removeClass('active');
         $(this).addClass('active');
-    })
-}
+    });
+//       $('.history li').click(function(){
+//         $('.history li').removeClass('active');
+//         $(this).addClass('active');
+//     })
+// }
