@@ -12,7 +12,7 @@
         });
        
         
-       $('.history').html('<li>li1</li><li>li3</li>');
+       $('.history').html('<li>liii1</li><li>liii3</li>');
 //     cli();
        
       // 选择地址
